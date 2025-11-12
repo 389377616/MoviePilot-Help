@@ -1,2 +1,3 @@
 #海贼王第22季Dynamis One
 (?<=Dynamis One.*One Piece - )(\d{3,4}) => s22e\1
+(?<=Dynamis One.*海贼王 - )(\d{3,4}) => s22e\1
