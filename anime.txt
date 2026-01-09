@@ -1,5 +1,3 @@
 #海贼王第22季Dynamis One
 (?<=Dynamis One.*One Piece - )(\d{3,4}) => s22e\1
 (?<=Dynamis One.*海贼王 - )(\d{3,4}) => s22e\1
-# 修正海贼王 Skymoon-Raws 识别：强制指定动画版 ID 并设为第 22 季
-\[Skymoon\-Raws\]One Piece\[(\d{3,4})\] => 海贼王{[tmdbid=37854;type=tv]} S22E\1
